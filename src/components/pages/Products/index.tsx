@@ -1,6 +1,6 @@
 import HeroSection from "../../HeroSection";
 import Layout from "../../Layout";
-import { homeObjFour, homeObjThree } from "./data";
+import { homeObjFour, homeObjThree } from "./Data";
 
 const Products = () => {
   return (
