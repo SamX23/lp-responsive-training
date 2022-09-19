@@ -2,18 +2,31 @@ import { Link } from "react-router-dom";
 import Button from "./Button";
 import "./HeroSection.css";
 
+interface props {
+  lightBg: boolean;
+  lightText: boolean;
+  lightTextDesc: boolean;
+  topLine: string;
+  headline: string;
+  description: string;
+  buttonLabel: string;
+  img: string;
+  alt: string;
+  imgStart: string;
+}
+
 const HeroSection = ({
   lightBg,
-  topLine,
   lightText,
   lightTextDesc,
+  topLine,
   headline,
   description,
   buttonLabel,
   img,
   alt,
   imgStart,
-}: any) => {
+}: props) => {
   return (
     <>
       <div
